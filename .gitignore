@@ -102,5 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-dict_imagecrawler.py
 .vscode/settings.json
