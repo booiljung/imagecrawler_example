@@ -1,0 +1,5 @@
+[submodule "imagecrawler"]
+	path = imagecrawler
+	url = https://github.com/booiljung/imagecrawler.git
+	branch = master
+
