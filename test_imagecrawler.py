@@ -12,6 +12,8 @@ chrome_options.add_argument("--lang=en_US")
 driver = webdriver.Chrome('/home/booil/Downloads/chromedriver', chrome_options=chrome_options)
 driver.implicitly_wait(3)
 
-dic = imcr.search_images_urls(driver, ['얼룩말', '연필'])
-print(dic)
+keyed_image_urls = imcr.search_images_urls(driver, ['얼룩말', '연필'])
+print(keyed_image_urls)
+
+imcr.write_image_urls_as_file(keyed_image_urls, './testdata/test_urls.txt')
 
